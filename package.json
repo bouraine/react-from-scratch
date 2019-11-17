@@ -2,7 +2,7 @@
   "name": "react-from-scratch",
   "version": "1.0.0",
   "description": "",
-  "main": "app.jsx",
+  "main": "app.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack --config webpack.dev.js & webpack-dev-server"
@@ -42,11 +42,11 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md,jsx}": [
+    "./src/**/*.{js,css,json,md,jsx}": [
       "prettier --write",
       "git add"
     ],
-    "*.js": [
+    "./src/**/*.js": [
       "eslint --fix",
       "git add"
     ]
