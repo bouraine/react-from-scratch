@@ -8,6 +8,7 @@
     "start": "webpack --config webpack.dev.js & webpack-dev-server --config webpack.dev.js"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
@@ -18,6 +19,9 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "enhanced-resolve": "^4.1.1",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.6.0",
